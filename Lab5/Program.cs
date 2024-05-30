@@ -13,9 +13,8 @@ class Program
         int isConnected = Convert.ToInt32(Console.ReadLine());
 
         // Эта строка кода преобразует целое число в логическое значение.
-        bool boolIsConnected = isConnected == 1 ? true : false;
-
-        // Создать экземпляр класса и запустить метод
+        bool boolIsConnected = isConnected == 1;
+        
         // Здесь создается экземпляр класса AutoUpdate.
         AutoUpdate autoUpdate = new AutoUpdate();
 
